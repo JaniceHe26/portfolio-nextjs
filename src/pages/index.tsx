@@ -1,8 +1,6 @@
 import Layout from '../components/Layout/Layout';
-// import Link from 'next/link'
 
-
-export default function Landing(): any {
+export default function Index(): any {
   return ( 
     <>
       <Layout>
