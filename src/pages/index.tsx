@@ -1,6 +1,14 @@
-export default function HomePage(): any {
+import Layout from '../components/Layout/Layout';
+// import Link from 'next/link'
+
+
+export default function Landing(): any {
   return ( 
-    <div> Janice He </div>
+    <>
+      <Layout>
+        <p>hi</p>
+      </Layout>
+    </>
   )
 }
 
