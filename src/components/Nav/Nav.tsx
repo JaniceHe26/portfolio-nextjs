@@ -1,13 +1,24 @@
 import React, { ReactElement } from 'react';
+import Link from 'next/link'
+
+//do inline styling here?
+// const linkStyle = {
+
+// }
 
 export default function Nav(): ReactElement {
   return (
     <>
-      <title>
+      <header>
         Janice He 
-      </title> 
+      </header> 
       <nav>
-        This is the nav bar
+        <Link href='/'>
+          <a>Home</a>
+        </Link>
+        <Link href='/about'>
+          <a>About</a>
+        </Link>
       </nav>
     </>
   )
