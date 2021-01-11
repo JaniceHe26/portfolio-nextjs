@@ -9,9 +9,9 @@ import Link from 'next/link'
 export default function Nav(): ReactElement {
   return (
     <>
-      <title>
+      <header>
         Janice He 
-      </title> 
+      </header> 
       <nav>
         <Link href='/'>
           <a>Home</a>
