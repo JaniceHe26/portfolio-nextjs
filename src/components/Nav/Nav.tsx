@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import Link from 'next/link'
+import Link from 'next/link';
 
 //do inline styling here?
 // const linkStyle = {
