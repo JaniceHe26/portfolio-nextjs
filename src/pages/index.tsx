@@ -25,6 +25,7 @@ export default function Index(): any {
   //   }, 2000);
   // }, [textAboutMe]);
 
+
   useEffect((): void => {
       // cycleText(textAboutMe);
       cycleText(textAboutMe, 0);
