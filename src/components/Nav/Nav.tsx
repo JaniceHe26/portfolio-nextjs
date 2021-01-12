@@ -9,6 +9,7 @@ import Link from 'next/link';
 export default function Nav(): ReactElement {
   return (
     <>
+      <title>Janice He</title>
       <header>
         Janice He 
       </header> 
