@@ -37,3 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 #### Future ToDos
 - Use Storybook for buttons 
 - Use useContext for dark/light mode
+- Sorry to any recruiters, i forgot to make a dev branch. I promise this won't happen in real life. 
