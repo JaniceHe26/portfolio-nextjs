@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 //do inline styling here?
 // const linkStyle = {
-
+    //fixed? 
 // }
 
 export default function Nav(): ReactElement {
