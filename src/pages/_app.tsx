@@ -1,6 +1,12 @@
 import '../styles/globals.css'
 import { AppProps } from 'next/app'
+import { ThemeProvider } from '../components/Context/ThemeContext';
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  if (typeof window === 'undefined') { return null }
+  return (
+    <ThemeProvider>
+      <Component {...pageProps} />
+    </ThemeProvider>
+  )
 }

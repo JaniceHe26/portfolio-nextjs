@@ -1,5 +1,6 @@
 import React, { ReactElement } from 'react';
 import Link from 'next/link';
+import Button from '../Button/Button';
 
 //do inline styling here?
 // const linkStyle = {
@@ -21,6 +22,7 @@ export default function Nav(): ReactElement {
           <a>About</a>
         </Link>
       </nav>
+      <Button />
     </>
   )
 }
