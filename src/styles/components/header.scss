@@ -1,0 +1,25 @@
+/* Nav Bar CSS Start */
+.name-header {
+  letter-spacing: 0.5rem;
+}
+
+.nav-container {
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 0.3rem;
+}
+
+.list-container > li {
+  margin: 0 1.2rem;
+}
+/* Nav Bar CSS End */
