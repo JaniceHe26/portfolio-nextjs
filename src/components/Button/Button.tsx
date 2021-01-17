@@ -5,7 +5,7 @@ const Button: React.FC = () => {
   const { toggleTheme } = useContext(ThemeContext);
 
   return (
-    <button onClick={toggleTheme}>Change Mode</button>
+    <button className='btn' onClick={toggleTheme}>Change Mode</button>
   )
 }
 

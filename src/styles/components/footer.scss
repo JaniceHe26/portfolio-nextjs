@@ -1,0 +1,22 @@
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+  
+}
+
+// .footer-container > ul {
+//   list-style: none;
+//   display: flex;
+//   align-items: center;
+//   flex-flow: row nowrap;
+//   justify-content: space-around;
+// }
