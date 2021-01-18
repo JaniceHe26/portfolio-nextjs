@@ -2,11 +2,6 @@ import React, { ReactElement } from 'react';
 import Link from 'next/link';
 import Button from '../Button/Button';
 
-//do inline styling here?
-// const linkStyle = {
-    //fixed? 
-// }
-
 export default function Nav(): ReactElement {
   return (
     <div className='nav-container'>

@@ -21,3 +21,28 @@ a {
 }
 
 
+// _app.tsx css
+.dark {
+  animation: darkChange 10s infinite;
+}
+
+
+.light {
+  animation: lightChange 10s infinite;
+}
+
+@keyframes lightChange{
+  0% {background:#000}
+  25% {background: #bae1ff}
+  50% {background: #baffc9}
+  75% {background: #ffb3ba}
+  100% {background: #ffdfba}
+}
+
+@keyframes darkChange{
+  0% {background:#ffffba}
+  25% {background: #bae1ff}
+  50% {background: #baffc9}
+  75% {background: #ffb3ba}
+  100% {background: #ffdfba}
+}
