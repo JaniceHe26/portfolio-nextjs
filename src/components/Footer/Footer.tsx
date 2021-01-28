@@ -12,7 +12,6 @@ import { HiOutlineMail } from '@react-icons/all-files/hi/HiOutlineMail';
 
 export default function Footer(): ReactElement {
   return (
-    <footer>
       <div className='footer-container'>
           <ul>
             <p> janice he 2020 </p>
@@ -50,6 +49,5 @@ export default function Footer(): ReactElement {
             </li>
           </ul>
       </div>
-    </footer>
   )
 }
