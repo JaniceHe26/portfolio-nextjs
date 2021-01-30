@@ -7,7 +7,7 @@ export default function Nav(): ReactElement {
     <div className='nav-container'>
       <title>Janice He</title>
       <header className='name-header'>
-        Janice He 
+        J&He
       </header> 
       <nav> 
         <ul className='list-container'>
