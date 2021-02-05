@@ -1,3 +1,17 @@
-.btn {
-  color: blue;
+.btn-dark {
+  background-color: #F9D7D8;
+  border-radius: 50%;
+  border: none;
+  .btn-dark:hover {
+    border: none;
+  }
+}
+
+.btn-light {
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+  .btn-light:hover {
+    border: none;
+  }
 }

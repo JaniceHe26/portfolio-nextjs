@@ -10,9 +10,9 @@ const Button: React.FC = () => {
     <>
     {theme === 'dark' ?
 
-      <button className='btn' onClick={toggleTheme}><Image src="/static/assets/images/light.svg" alt="Light mode button" width={15} height={15} />
+      <button className='btn-dark' onClick={toggleTheme}><Image src="/static/assets/images/light.svg" alt="Light mode button" width={15} height={15} />
       </button> :
-      <button className='btn' onClick={toggleTheme}><Image src="/static/assets/images/crescentmoon.svg" alt="Light mode button" width={15} height={15} /></button>
+      <button className='btn-light' onClick={toggleTheme}><Image src="/static/assets/images/crescentmoon.svg" alt="Light mode button" width={15} height={15} /></button>
     }
     </>
   )
