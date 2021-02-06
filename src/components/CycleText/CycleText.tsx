@@ -20,6 +20,7 @@ export default function CycleText(): ReactElement{
   //   }, 2000);
   // }, [textAboutMe]);
 
+  //to dos -> make currentWord to be different color by giving it a style
 
   useEffect((): void => {
       // cycleText(textAboutMe);
@@ -28,7 +29,8 @@ export default function CycleText(): ReactElement{
 
   return (
     <div className='current-word-container'>
-      <h3>{currentWord}</h3>
+      <h3>this is me</h3>
+      <h4>{currentWord}</h4>
     </div>
   );
 

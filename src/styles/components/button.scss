@@ -1,5 +1,6 @@
 .btn-dark {
-  background-color: #F9D7D8;
+  // background-color: #F9D7D8;
+  background: none;
   border-radius: 50%;
   border: none;
   .btn-dark:hover {
@@ -8,7 +9,8 @@
 }
 
 .btn-light {
-  background-color: white;
+  // background-color: white;
+  background: none;
   border-radius: 50%;
   border: none;
   .btn-light:hover {

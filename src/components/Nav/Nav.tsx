@@ -7,18 +7,18 @@ export default function Nav(): ReactElement {
     <div className='nav-container'>
       <title>Janice He</title>
       <header className='name-header'>
-        J&He
+        {`{/*J&He*/}`}
       </header> 
       <nav> 
         <ul className='list-container'>
           <li>
             <Link href='/'>
-              <a>home/</a>
+              <a>{`{/*home*/}`}</a>
             </Link>
           </li>
           <li>
             <Link href='/about'>
-              <a>about/</a>
+              <a>{`{/*about*/}`}</a>
             </Link>
           </li>
         </ul>

@@ -8,8 +8,8 @@ export default function AboutComp(): ReactElement {
       <div>
       {/* onHover for a more human translation later, use this later
           https://upmostly.com/tutorials/react-onhover-event-handling-with-examples */}
-        <h2>hello, world</h2>
-        <h1>i am janice, a frontend developer by night and solutions consultant by day</h1>
+        <h1>hello, world! i am janice</h1>
+        <h2>solutions consultant 🔅| software engineer 🌙</h2>
         <p>i love learning new things and stuff from the INTERNweb and other hoomans</p>
         <p>then i use that big brain knowledge to kahsdjhaksjdfhkjlashdf a creative application</p>
         <p>when i am not coding, learning, overthinking, memeing, listening to moosic, or rewatching f.r.i.e.n.d.s for the 999999^th x</p>

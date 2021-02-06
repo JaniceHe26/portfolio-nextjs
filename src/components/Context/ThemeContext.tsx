@@ -33,8 +33,8 @@ export const ThemeProvider: React.FC = ({ children }) => {
   }, []);
 
 
-  const color = theme === 'light' ? '#000' : '#F9D7D8';
-    const background = theme === 'light' ? '#ffffff' : '#000';
+  const color = theme === 'light' ? '#000' : '#000';
+  const background = theme === 'light' ? '#92d5b8' : '#f49a92';
 
   // const background = theme === 'light' ? '#D3839B' : '#576298';
 
