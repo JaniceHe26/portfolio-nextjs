@@ -1,7 +1,7 @@
 export default [
   {
     "image": "www.google.com",
-    "title": "Nex[Door]",
+    "title": "noin",
     "description": "abc",
     "code": "https://github.com/JaniceHe26/NexDoor",
     "site": "https://nexdoor.surge.sh/",
@@ -9,7 +9,7 @@ export default [
   },
   {
     "image": "www.google.com",
-    "title": "Nex[Door]",
+    "title": "moppy",
     "description": "abc",
     "code": "https://github.com/JaniceHe26/NexDoor",
     "site": "https://nexdoor.surge.sh/",

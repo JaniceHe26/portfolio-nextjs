@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ThreeColorDots: React.FC = () => {
+const Shapes: React.FC = () => {
 
   //generate different shapes from different point of the screen.
 
@@ -13,4 +13,4 @@ const ThreeColorDots: React.FC = () => {
   )
 }
 
-export default ThreeColorDots;
+export default Shapes;
