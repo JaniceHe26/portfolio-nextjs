@@ -13,9 +13,9 @@ export default function Layout(props: LayoutProps): ReactElement {
   return (
     <>
       <Nav />
-        <div className={`${theme} layout-container`}>
-          {props.children}
-        </div>
+            <div className={`${theme} layout-container`}>
+              {props.children}
+            </div>
       <Footer />
     </>
   )
