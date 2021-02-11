@@ -1,43 +1,34 @@
 import React, { useCallback, useEffect, useState } from 'react';
+import Circle from '../../services/Circle';
 
 const Shapes: React.FC = () => {
-  const coordination: Map<number, number[]> = new Map();
   const [height, setHeight] = useState<number>(window.innerHeight);
   const [width, setWidth] = useState<number>(window.innerWidth);
   //generate different shapes from different point of the screen.
 
-  const generateLocation = useCallback((width: number, height: number, coordination: Map<number, number[]>): void => {
+  const generateLocation = useCallback((): void => {
+    for (let i = 0; i < 5; i++) {
+      let x = Math.floor(Math.random() * height);
+      let y = Math.floor(Math.random() * width);
+      const circle = new Circle(100, 100, x, y);
+      circle.attachToParent();
+    }
+
+    //have a queue state, clears it out everytime.
     setTimeout(() => {
-      for (let i = 0; i < 5; i++) {
-        let x = Math.floor(Math.random() * height);
-        let y = Math.floor(Math.random() * width);
-        console.log(x,y);
-        if (!coordination.has(i)) {
-          coordination.set(i, [x, y]);
-        }
-      }
+      generateLocation();
     }, 2000);
-  }, [coordination]);
+  }, [width, height]);
 
   useEffect((): void => {
-    generateLocation(width, height, coordination);
+    generateLocation();
   }, []);
 
 
-  const generateDivs = (): any => {
-    setTimeout(() => {
-      for (let i = 0; i < 5; i++) {
-        return (
-          <div></div>
-        )
-      }
-    }, 2000);
-  }
-
   return (
-    <>
-    {generateDivs}
-    </>
+    <div>
+      
+    </div>
   )
 }
 

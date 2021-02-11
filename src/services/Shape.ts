@@ -4,7 +4,7 @@ class Shape {
   x: number;
   y: number;
   ele: HTMLElement;
-  colors: string[] = ['#fff', '#000']
+  colors: string[] = ['#ffffff54', '#00000054']
 
   constructor(width: number, height: number, x: number, y: number, ele: HTMLElement) {
     this.width = width;
